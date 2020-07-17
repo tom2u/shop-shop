@@ -36,7 +36,7 @@ function CategoryMenu() {
         });
       });
     }
-  }, [categoryData, dispatch]);
+  }, [categoryData, dispatch, loading]);
 
   const handleClick = (id) => {
     dispatch({
